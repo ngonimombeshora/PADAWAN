@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "/home/ngonidzashe/Documents/XADC/Nexys-A7-100T-XADC-2018.2-1/vivado_proj/Nexys-A7-100T-XADC.sim/sim_1/impl/timing/xsim/XADCdemo_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module DigitToSeg
+INFO: [VRFC 10-311] analyzing module XADCdemo
+INFO: [VRFC 10-311] analyzing module chorus
+INFO: [VRFC 10-311] analyzing module counter3bit
+INFO: [VRFC 10-311] analyzing module decoder_3_8
+INFO: [VRFC 10-311] analyzing module distortion
+INFO: [VRFC 10-311] analyzing module mux4_4bus
+INFO: [VRFC 10-311] analyzing module pwm_module
+INFO: [VRFC 10-311] analyzing module segClkDevider
+INFO: [VRFC 10-311] analyzing module sevensegdecoder
+INFO: [VRFC 10-311] analyzing module xadc_wiz_0
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Nexys-A7-100T-XADC.srcs/xadc_wiz_0/ip/xadc_wiz_0/xadc_wiz_0_sim_netlist.v" \
+"../../../../Nexys-A7-100T-XADC.srcs/sources_1/imports/hdl/DigitToSeg.v" \
+"../../../../Nexys-A7-100T-XADC.srcs/sources_1/new/chorus.v" \
+"../../../../Nexys-A7-100T-XADC.srcs/sources_1/imports/hdl/counter3bit.v" \
+"../../../../Nexys-A7-100T-XADC.srcs/sources_1/imports/hdl/decoder3_8.v" \
+"../../../../Nexys-A7-100T-XADC.srcs/sources_1/new/distortion.v" \
+"../../../../Nexys-A7-100T-XADC.srcs/sources_1/new/echo.v" \
+"../../../../Nexys-A7-100T-XADC.srcs/sources_1/new/lpf.v" \
+"../../../../Nexys-A7-100T-XADC.srcs/sources_1/imports/hdl/mux4_4bus.v" \
+"../../../../Nexys-A7-100T-XADC.srcs/sources_1/imports/hdl/pwm_module.v" \
+"../../../../Nexys-A7-100T-XADC.srcs/sources_1/imports/hdl/segClkDevider.v" \
+"../../../../Nexys-A7-100T-XADC.srcs/sources_1/imports/hdl/sevensegdecoder.v" \
+"../../../../Nexys-A7-100T-XADC.srcs/sources_1/imports/hdl/top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
